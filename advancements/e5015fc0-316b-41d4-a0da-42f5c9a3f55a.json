@@ -41,6 +41,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_at_least_9_wheat": "2019-09-13 19:53:21 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_bed": {
     "criteria": {
       "has_white_wool": "2019-09-11 23:20:04 -0700"
@@ -62,6 +68,12 @@
   "minecraft:recipes/tools/iron_pickaxe": {
     "criteria": {
       "has_iron_ingot": "2019-09-11 23:43:27 -0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2019-09-13 19:48:30 -0700"
     },
     "done": true
   },
@@ -98,6 +110,12 @@
   "minecraft:recipes/redstone/redstone": {
     "criteria": {
       "has_at_least_9_redstone": "2019-09-11 23:44:16 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2019-09-13 19:46:56 -0700"
     },
     "done": true
   },
@@ -240,6 +258,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2019-09-13 19:58:40 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/shield": {
     "criteria": {
       "has_iron_ingot": "2019-09-11 23:43:27 -0700"
@@ -318,6 +342,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_at_least_9_wheat": "2019-09-13 19:53:21 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_leggings": {
     "criteria": {
       "has_leather": "2019-09-11 23:16:44 -0700"
@@ -381,6 +411,15 @@
   "minecraft:recipes/building_blocks/blue_wool": {
     "criteria": {
       "has_white_wool": "2019-09-11 23:20:04 -0700"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_boots": "2019-09-13 19:46:40 -0700",
+      "iron_chestplate": "2019-09-13 19:46:40 -0700",
+      "iron_leggings": "2019-09-13 19:46:40 -0700",
+      "iron_helmet": "2019-09-13 19:46:40 -0700"
     },
     "done": true
   },
@@ -540,15 +579,28 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2019-09-13 19:58:40 -0700"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:skeleton": "2019-09-11 23:20:22 -0700"
+      "minecraft:skeleton": "2019-09-11 23:20:22 -0700",
+      "minecraft:enderman": "2019-09-13 19:54:51 -0700"
     },
     "done": false
   },
   "minecraft:recipes/building_blocks/dark_oak_stairs": {
     "criteria": {
       "has_planks": "2019-09-11 23:23:34 -0700"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2019-09-13 19:48:30 -0700"
     },
     "done": true
   },
@@ -567,6 +619,12 @@
   "minecraft:recipes/food/cooked_beef_from_smoking": {
     "criteria": {
       "has_beef": "2019-09-11 23:16:44 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2019-09-13 19:58:40 -0700"
     },
     "done": true
   },
@@ -660,6 +718,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2019-09-13 19:58:40 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2019-09-11 23:16:14 -0700"
@@ -747,6 +811,12 @@
   "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
       "has_at_least_9_coal": "2019-09-11 23:31:07 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_yellow_flower": "2019-09-13 19:58:40 -0700"
     },
     "done": true
   },
@@ -999,7 +1069,12 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:forest": "2019-09-11 23:15:48 -0700",
-      "minecraft:dark_forest": "2019-09-11 23:15:07 -0700"
+      "minecraft:mountains": "2019-09-13 20:05:32 -0700",
+      "minecraft:birch_forest": "2019-09-13 19:56:52 -0700",
+      "minecraft:dark_forest": "2019-09-11 23:15:07 -0700",
+      "minecraft:river": "2019-09-13 19:56:50 -0700",
+      "minecraft:swamp": "2019-09-13 19:55:37 -0700",
+      "minecraft:plains": "2019-09-13 19:56:15 -0700"
     },
     "done": false
   },
@@ -1048,6 +1123,12 @@
   "minecraft:recipes/redstone/oak_door": {
     "criteria": {
       "has_planks": "2019-09-11 23:16:14 -0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2019-09-13 19:53:31 -0700"
     },
     "done": true
   },
